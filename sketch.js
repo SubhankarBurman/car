@@ -4,7 +4,7 @@ var deformation;
 
 function setup() {
 
-  createCanvas(800,400);
+  createCanvas(windowsWidth,windowsHeight);
 
   car = createSprite(50, 200, 50, 50);
   wall = createSprite(1500,200,60,height/2)
